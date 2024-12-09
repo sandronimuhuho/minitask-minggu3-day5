@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: lightgrey;
+    padding: 5px;
+    border: 2px solid black;
+    display: grid;
+    gap: 5px 5 px;
+    grid-template-columns: repeat(2, minmax(100px, 1fr)) ;
+    grid-template-rows: repeat(3, minmax(100px, 1fr)); 
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: 
+    "a c"
+    "b d"
+    "e e"
+    ;
+
+
+    
+
+}
+.nav {
+    background-color: lightblue;
+    padding: 5px;
+    border: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 24;
+    position: relative;
+   
+    
+
+  }
+  .home {
+    grid-area: a;
+  }
+  .file {
+    grid-area: c;
+  }
+  .edit {
+    grid-area: b;
+
+  }
+  .tampil {
+    grid-area: d;
+
+  }
+  .ban{
+    grid-area: e;
+  }
+
