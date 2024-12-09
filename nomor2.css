@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: end;
+    gap: 10px;
+
+}
+.nav {
+    width: 200px;
+    height: 50px;
+    background-color: lightblue;
+    padding: 5px;
+    border: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24;
+   
+    
+
+  }
+
